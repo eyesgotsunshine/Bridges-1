@@ -102,7 +102,7 @@ public:
     for (int i=0; i<d1.size(); ++i) {
       int disksize = d1[i];
       Rectangle disk (-1.0f-disksize/2.f*diskunitwidth, 0.0f+diskheight*i, diskunitwidth*disksize, diskheight);
-      disk.setFillColor("black");
+      disk.setFillColor("orange");
       sc.addSymbol(disk);
     }
     
@@ -110,7 +110,7 @@ public:
     for (int i=0; i<d2.size(); ++i) {
       int disksize = d2[i];
       Rectangle disk (-1.0f-disksize/2.f*diskunitwidth+pegspacing, 0.0f+diskheight*i, diskunitwidth*disksize, diskheight);
-      disk.setFillColor("black");
+      disk.setFillColor("yellow");
       sc.addSymbol(disk);
     }
 
@@ -118,7 +118,7 @@ public:
     for (int i=0; i<d3.size(); ++i) {
       int disksize = d3[i];
       Rectangle disk (-1.0f-disksize/2.f*diskunitwidth+2*pegspacing, 0.0f+diskheight*i, diskunitwidth*disksize, diskheight);
-      disk.setFillColor("black");
+      disk.setFillColor("green");
       sc.addSymbol(disk);
     }
 

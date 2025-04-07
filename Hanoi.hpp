@@ -103,7 +103,12 @@ public:
     for (int i=0; i<d1.size(); ++i) {
       int disksize = d1[i];
       Rectangle disk (-1.0f-disksize/2.f*diskunitwidth, 0.0f+diskheight*i, diskunitwidth*disksize, diskheight);
-      disk.setFillColor("red");
+     // need 5 if statements 
+	if (disksize == d1[0]) disk.setFillColor("red");
+	if (disksize == d1[1]) disk.setFillColor("orange");
+	if (disksize == d1[2]) disk.setFillColor("yellow");
+	if (disksize == d1[3]) disk.setFillColor("green");
+	if (disksize == d1[4]) disk.setFillColor("blue");
       sc.addSymbol(disk);
     }
     
@@ -111,7 +116,13 @@ public:
     for (int i=0; i<d2.size(); ++i) {
       int disksize = d2[i];
       Rectangle disk (-1.0f-disksize/2.f*diskunitwidth+pegspacing, 0.0f+diskheight*i, diskunitwidth*disksize, diskheight);
-      disk.setFillColor("green");
+      // need 5 if statements
+	 if (disksize == d2[4]) disk.setFillColor("red");
+	 if (disksize == d2[3]) disk.setFillColor("orange");
+	 if (disksize == d2[2]) disk.setFillColor("yellow");
+	 if (disksize == d2[1]) disk.setFillColor("green");
+	 if (disksize == d2[0]) disk.setFillColor("blue");
+	 // disk.setFillColor("purple");
       sc.addSymbol(disk);
     }
 
@@ -119,7 +130,13 @@ public:
     for (int i=0; i<d3.size(); ++i) {
       int disksize = d3[i];
       Rectangle disk (-1.0f-disksize/2.f*diskunitwidth+2*pegspacing, 0.0f+diskheight*i, diskunitwidth*disksize, diskheight);
-      disk.setFillColor("blue");
+      // need 5 if statements
+	if (disksize == d3[0]) disk.setFillColor("red");
+	if (disksize == d3[1]) disk.setFillColor("orange");
+	if (disksize == d3[2]) disk.setFillColor("yellow");
+	if (disksize == d3[3]) disk.setFillColor("green");
+	if (disksize == d3[4]) disk.setFillColor("blue");
+	//  disk.setFillColor("pink");
       sc.addSymbol(disk);
     }
 

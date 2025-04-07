@@ -22,7 +22,7 @@ $(EXE): $(OBJS)
 
 .SUFFIXES: .cpp
 
-.cpp.o:  
+.cpp.o:   
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 all : $(EXE)

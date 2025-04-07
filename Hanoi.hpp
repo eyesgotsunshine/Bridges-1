@@ -5,7 +5,7 @@
 #include "Bridges.h"
 #include "SymbolCollection.h"
 #include "Rectangle.h"
-//#include "Colors.h"
+#include "Color.h"
 
 using namespace bridges;
 

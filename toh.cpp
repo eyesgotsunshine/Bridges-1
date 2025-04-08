@@ -7,7 +7,7 @@
 using namespace std;
 using namespace bridges;
 
-
+ 
 void moveStack(Hanoi& nt, int from, int to, int howmany) {
   //TODO
    if (howmany == 1) {

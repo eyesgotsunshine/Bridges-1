@@ -1,6 +1,6 @@
 # Bridges-1
 ## Project Members:
-### Stefanie Motsenbocker
+### Stefanie Motsenbocker - I had only seen a video of Towers of Hanoi once before. But it looked fascinating. 
 ### Ella Nicole Siadto - Hello! I thought Towers of Hanoi seemed like a pretty fun project to do. I've seen it played before and I liked the idea of using recurssions.
 
 

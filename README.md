@@ -2,7 +2,7 @@
 ## Project Members:
 ### Stefanie Motsenbocker
 ### Ella Nicole Siadto
-Hello! I thought Towers of Hanoi seemed like a pretty fun project to do. I've seen it played before and I liked the idea of using recurssions.
+    Hello! I thought Towers of Hanoi seemed like a pretty fun project to do. I've seen it played before and I liked the idea of using recurssions.
 
 
 *Instructions from Canvas*

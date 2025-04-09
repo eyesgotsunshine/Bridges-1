@@ -104,11 +104,11 @@ public:
       int disksize = d1[i];
       Rectangle disk (-1.0f-disksize/2.f*diskunitwidth, 0.0f+diskheight*i, diskunitwidth*disksize, diskheight);
      // need 5 if statements 
-    if (disksize == d1[0]) disk.setFillColor("red");
-    if (disksize == d1[1]) disk.setFillColor("orange");
-    if (disksize == d1[2]) disk.setFillColor("yellow");
-    if (disksize == d1[3]) disk.setFillColor("green");
-    if (disksize == d1[4]) disk.setFillColor("blue");
+	 if (diskunitwidth*disksize == 20) disk.setFillColor("red");
+     if (diskunitwidth*disksize == 40) disk.setFillColor("orange");
+     if (diskunitwidth*disksize == 60) disk.setFillColor("yellow");
+     if (diskunitwidth*disksize == 80) disk.setFillColor("green");
+     if (diskunitwidth*disksize == 100) disk.setFillColor("blue");
 	  sc.addSymbol(disk);
     }
     
@@ -117,11 +117,11 @@ public:
       int disksize = d2[i];
       Rectangle disk (-1.0f-disksize/2.f*diskunitwidth+pegspacing, 0.0f+diskheight*i, diskunitwidth*disksize, diskheight);
       // need 5 if statements
-	 if (disksize == d1[0]) disk.setFillColor("red");
-	 if (disksize == d1[1]) disk.setFillColor("orange");
-	 if (disksize == d1[2]) disk.setFillColor("yellow");
-	 if (disksize == d1[3]) disk.setFillColor("green");
-	 if (disksize == d1[4]) disk.setFillColor("blue");
+	 if (diskunitwidth*disksize == 20) disk.setFillColor("red");
+     if (diskunitwidth*disksize == 40) disk.setFillColor("orange");
+     if (diskunitwidth*disksize == 60) disk.setFillColor("yellow");
+     if (diskunitwidth*disksize == 80) disk.setFillColor("green");
+     if (diskunitwidth*disksize == 100) disk.setFillColor("blue");
 	  // disk.setFillColor("purple");
       sc.addSymbol(disk);
     }
@@ -131,11 +131,11 @@ public:
       int disksize = d3[i];
       Rectangle disk (-1.0f-disksize/2.f*diskunitwidth+2*pegspacing, 0.0f+diskheight*i, diskunitwidth*disksize, diskheight);
       // need 5 if statements
-	if (disksize == d1[0]) disk.setFillColor("red");
-    if (disksize == d1[1]) disk.setFillColor("orange");
-    if (disksize == d1[2]) disk.setFillColor("yellow");
-    if (disksize == d1[3]) disk.setFillColor("green");
-    if (disksize == d1[4]) disk.setFillColor("blue");
+	 if (diskunitwidth*disksize == 20) disk.setFillColor("red");
+     if (diskunitwidth*disksize == 40) disk.setFillColor("orange");
+     if (diskunitwidth*disksize == 60) disk.setFillColor("yellow");
+     if (diskunitwidth*disksize == 80) disk.setFillColor("green");
+     if (diskunitwidth*disksize == 100) disk.setFillColor("blue");
 	  //  disk.setFillColor("pink");
       sc.addSymbol(disk);
     }
